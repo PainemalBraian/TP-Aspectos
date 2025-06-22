@@ -1,5 +1,6 @@
 package aop.ejercicio3.model;
 
+import aop.ejercicio3.aspects.Log;
 import aop.ejercicio3.model.DAO.*;
 import aop.ejercicio3.model.entities.*;
 import aop.ejercicio3.model.exceptions.*;
@@ -16,6 +17,7 @@ public class ConcursoController implements ConcursoAPI {
     }
 
     @Override
+    @Log
     public List<String> getTodosLosConcursos() throws ConcursoException {
         try {
             return concursoDAO.obtenerConcursos();
@@ -25,6 +27,7 @@ public class ConcursoController implements ConcursoAPI {
     }
 
     @Override
+    @Log
     public void saveInscription(String name, String lastName, String dni, String telefono, String email, String concurso) throws InscripcionException {
         try {
             var persona = new Persona(name, lastName, dni, new Email(email), new Phone(telefono), new Concurso(concurso));
