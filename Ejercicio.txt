@@ -16,3 +16,10 @@ TP9 - Aspectos
     “saveInscription”, “valor1|valor2”, “2024/07/21 15:30:32”
     “saveInscription”, “valor0|valor4”, “2024/07/21 15:30:34”
     “todosLosConcuros”, “sin parametros”, “2024/07/21 15:32:32”
+
+
+    Compilar con Maven: mvn clean compile
+    Ejecutar la aplicación principal O Ejecutar la prueba de logging
+
+    El ejercicio se encuentra dentro de la carpeta "aop/src/main/java/aop/ejercicio3"
+    Genera y escribe el recorrido de logs en el archivo raiz "Concurso_logs.txt"

@@ -1,3 +1,5 @@
 "saveInscription", "Juan|Pérez|12345678|2991-123456|asdadsa|Concurso de Fotografía", "2025/06/22 07:47:54"
 "saveInscription", "María|García|87654321|2991-654321|asdasdas|Concurso de Pintura", "2025/06/22 07:47:56"
 "getTodosLosConcursos", "sin parametros", "2025/06/22 07:47:56"
+"getTodosLosConcursos", "sin parametros", "2025/06/22 07:58:52"
+"saveInscription", "|||||Concurso de Fotografía", "2025/06/22 07:58:55"

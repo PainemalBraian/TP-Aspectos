@@ -38,3 +38,10 @@ public class LoggingTest {
         }
     }
 }
+
+//2. Compilar con Maven:
+//   mvn clean compile
+//
+//3. Ejecutar la aplicación principal:
+//
+//4. Ejecutar la prueba de logging:
