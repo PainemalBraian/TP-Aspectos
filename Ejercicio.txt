@@ -1,0 +1,14 @@
+TP9 - Aspectos
+    En el repositorio https://github.com/enriquemolinari/oop2-aop pueden encontrar ejemplo usando AspjectJ con Maven.
+
+    1. Prepare el ambiente, clone el repositorio y revise que pueda compilar y ejecutar aplicaciones utilizando AspectJ.
+    Recuerde que para compilar y ejecutar debe utilizar los comandos por consola de Maven: mvn compile y mvn exec:java.
+
+    2. Utilice la implementación del ejercicio 3 del TP de layers (RadioCompetition) y escriba una anotación @Log que permita marcar los métodos que queremos loguear cada vez que son llamados.
+    Del método invocado se debe registrar su nombre y el valor de cada parámetro y la fecha/hora de invocación.
+    Sobre el valor de cada parámetro, éstos deben estar separados por | (pipe) en caso que existan y en otro caso se registra “sin parámetros”.
+    El logueo debe persistirse en un archivo de texto. Como prueba para la verificación de que lo implementado funciona, “aspectee” los métodos saveInscription y todosLosConcursos.
+    El archivo de logueo debe quedar de la siguiente forma:
+    “saveInscription”, “valor1|valor2”, “2024/07/21 15:30:32”
+    “saveInscription”, “valor0|valor4”, “2024/07/21 15:30:34”
+    “todosLosConcuros”, “sin parametros”, “2024/07/21 15:32:32”
